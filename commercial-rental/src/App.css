@@ -1,7 +1,14 @@
+:root {
+    --blue: #63AAAB;
+    --orange: #FFA500;
+    --gray:  #36454f;
+}
+
 main {
-    background-color: #3E3B39;
+    background-color: var(--gray);
 }
 
 p {
     color: white;
 }
+

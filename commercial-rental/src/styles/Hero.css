@@ -1,20 +1,33 @@
-.temp-trailer {
-    
-    height: 30rem;
+:root {
+    --blue: #63AAAB;
+    --orange: #FFA500;
+    --gray:  #36454f;
+}
+
+
+
+.hero-header {
+    font-size: 2rem;
+    color: white;
+    margin: 3rem 0rem 0rem 30rem; 
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-p {
+    margin: 0rem 0rem 0rem 30rem; 
+    background-color: var(--gray);
+    align-items: center;
+    justify-content: center;
 }
 
 .trailer-container {
     display: flex;
     justify-content: flex-end;
+    background-color: var(--gray);
 }
 
-.hero-header {
-    font-size: 2rem;
-    color: white;
-    margin: 2rem 2rem 0rem 1.5rem;
+.temp-trailer {
+    height: 25rem;
+    margin: -10rem 10rem 10rem 30rem;
 }
-
-.hero-p {
-    margin: 0rem 2rem 0rem 1.5rem;
-}
-

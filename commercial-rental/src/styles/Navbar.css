@@ -1,16 +1,15 @@
 :root {
     --blue: #63AAAB;
     --orange: #FFA500;
+    --gray:  #36454f;
 }
 
 .nav {
-    margin-top: 0;
-    position: -webkit-sticky;
-    
+    margin-top: 0;    
 }
 
 nav {
-    background-color: var(--blue);
+    background-color: var(--gray);
     padding: 1rem;
 }
 
@@ -25,12 +24,13 @@ nav {
 
 .nav li {
     font-size: 1.75rem;
-    margin: 0 0 0 2rem;
-    color: #ffffff;
+    margin: 3rem 0rem 0rem 6rem;
+    color: white;
+    justify-content: space-between;
 }
 
 .title {
     font-family: 'Ultra', serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--orange);
 }
