@@ -1,0 +1,7 @@
+.form-container {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+

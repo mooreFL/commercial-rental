@@ -12,30 +12,13 @@ export default function Fleet() {
             <div className="fleet-container">
                 <div className="fleet-info">
                     <p className="trailer-info">
-                    Year
+                    2021
                     </p>
                     <p className="trailer-info">
-                    Trailer Make
+                    Shasta
                     </p>
                     <p className="trailer-info">
-                    Model
-                    </p>
-                    <p className="trailer-info">
-                    Sleeps #
-                    </p>
-                    <div>
-                    <img className="trailer-photo" src= {img}/>
-                    </div>
-                </div>
-                <div className="fleet-info">
-                    <p className="trailer-info">
-                    Year
-                    </p>
-                    <p className="trailer-info">
-                    Trailer Make
-                    </p>
-                    <p className="trailer-info">
-                    Model
+                    310k
                     </p>
                     <p className="trailer-info">
                     Sleeps #
@@ -46,13 +29,30 @@ export default function Fleet() {
                 </div>
                 <div className="fleet-info">
                     <p className="trailer-info">
-                    Year
+                    2016
                     </p>
                     <p className="trailer-info">
-                    Trailer Make
+                    Jayco
                     </p>
                     <p className="trailer-info">
-                    Model
+                    Jayflight 26BH
+                    </p>
+                    <p className="trailer-info">
+                    Sleeps #
+                    </p>
+                    <div>
+                    <img className="trailer-photo" src= {img}/>
+                    </div>
+                </div>
+                <div className="fleet-info">
+                    <p className="trailer-info">
+                    2016
+                    </p>
+                    <p className="trailer-info">
+                    Coachmen
+                    </p>
+                    <p className="trailer-info">
+                    Pursuit 33BH Class-A RV
                     </p>
                     <p className="trailer-info">
                     Sleeps #
