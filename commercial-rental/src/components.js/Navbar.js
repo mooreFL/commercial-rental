@@ -11,10 +11,10 @@ export default function Navbar() {
               <p className="title">Sun Flo Rentalz</p>
               <li>About</li>
               <li>Our Fleet</li>
-              <li>Contact Us</li>
+              <li>Book Now</li>
             </ul>
           </nav>
         </div>
        </div>
-    )
+    );
 }
