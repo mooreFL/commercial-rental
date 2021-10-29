@@ -21,7 +21,7 @@ export default function Fleet() {
                     310k
                     </p>
                     <p className="trailer-info">
-                    Sleeps #
+                    Sleeps 6
                     </p>
                     <div>
                     <img className="trailer-photo" src= {img}/>
@@ -38,7 +38,7 @@ export default function Fleet() {
                     Jayflight 26BH
                     </p>
                     <p className="trailer-info">
-                    Sleeps #
+                    Sleeps 4
                     </p>
                     <div>
                     <img className="trailer-photo" src= {img}/>
@@ -55,7 +55,7 @@ export default function Fleet() {
                     Pursuit 33BH Class-A RV
                     </p>
                     <p className="trailer-info">
-                    Sleeps #
+                    Sleeps 8
                     </p>
                     <div>
                     <img className="trailer-photo" src= {img}/>

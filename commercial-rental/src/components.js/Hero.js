@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../images/trailerstockphoto.png";
+import img from "../images/logo.png";
 import "../styles/Hero.css";
 
 export default function Hero() {
@@ -10,9 +10,9 @@ export default function Hero() {
                 Find your RV rental
                 </div>
                 <p className="hero-p">
-                Experience the outdoors with Sun Flo Rentalz;
+                Experience the outdoors with Sun Flo Rentalz.
                 <br/>
-                Central Florida's premier vacation rental company.
+                Serving Central Florida with premium vacation rentals.
                 </p>
                 <div className="trailer-container">
                     <img className="temp-trailer" src= {img}/>

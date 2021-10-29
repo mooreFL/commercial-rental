@@ -8,14 +8,15 @@
     width: 100%;
     font-size: 2.5rem;
     color: white;
-    margin: 5rem 0rem 0rem 20rem; 
+    margin: 3rem 0rem 0rem 20rem; 
     align-items: center;
     justify-content: center;
+    background-color: #000000;
 }
 
 .hero-p {
-    margin: 1rem 0rem 0rem 20rem; 
-    background-color: var(--gray);
+    margin: 0rem 0rem 0rem 20rem; 
+    background-color: #000000;
     align-items: center;
     justify-content: center;
 }
@@ -23,11 +24,11 @@
 .trailer-container {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--gray);
+    background-color: #000000;
 }
 
 .temp-trailer {
     height: 25rem;
-    margin: -8rem 10rem 0rem 20rem;
+    margin: -8rem 25rem 0rem 0rem;
     border-radius: 10px;
 }

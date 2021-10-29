@@ -1,7 +1,14 @@
+:root {
+    --blue: #63AAAB;
+    --orange: #FFA500;
+    --gray:  #36454f;
+}
+
 .form-container {
     height: 10rem;
     display: flex;
     justify-content: center;
     color: white;
+    background-color: var(--gray);
 }
 

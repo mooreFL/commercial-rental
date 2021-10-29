@@ -5,7 +5,7 @@
 }
 
 .fleet {
-    background-color: #212121;
+    background-color:var(--gray);
 }
 .fleet-p {
     font-size: 2.5rem;
@@ -16,8 +16,10 @@
     display: grid;
    grid-template-columns: repeat(3,1fr);
    padding: 0 16rem;
-   margin-right: -12.5rem;
+}
 
+.fleet-info  {
+    text-align: center;
 }
 
 .trailer-photo {

@@ -11,7 +11,7 @@ function ContactForm() {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Book Your Rental</label>
+        <label htmlFor="email">Get Quote</label>
         <br/>
         <input id="name" type="name" name="name" placeholder="Full Name"/>
         <input id="email" type="email" name="email" placeholder="Email"/>
@@ -21,7 +21,7 @@ function ContactForm() {
         <br/>
         <label for="shasta">Shasta 310k</label>
         <input id="trailercheckbox1" type="checkbox" name="Shasta310k" />
-        <label for="Jayco26BH">Shasta 310k</label>
+        <label for="Jayco26BH">Jayflight 26BH</label>
         <input id="trailercheckbox1" type="checkbox" name="Jayflight26BH" />
         <label for="Coachmen33BH">Coachmen 33BH</label>
         <input id="trailercheckbox1" type="checkbox" name="Pursuit33BH" />
