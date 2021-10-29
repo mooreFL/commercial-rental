@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../images/trailerstockphoto.png";
 import "../styles/Fleet.css";
-import { equipment } from "../data";
+// import { equipment } from "../data";
 
 export default function Fleet() {
     return (

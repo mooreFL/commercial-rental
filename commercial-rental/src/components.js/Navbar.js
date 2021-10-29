@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../images/longlogo.png";
 import "../styles/Navbar.css";
 
 export default function Navbar() {

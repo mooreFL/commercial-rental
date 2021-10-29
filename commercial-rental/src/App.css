@@ -4,11 +4,19 @@
     --gray:  #36454f;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 main {
     background-color: var(--gray);
 }
 
 p {
     color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
