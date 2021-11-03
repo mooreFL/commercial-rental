@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../images/logo.png";
+import img from "../images/logo-removebg.png";
 import "../styles/Hero.css";
 
 export default function Hero() {
