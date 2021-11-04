@@ -15,13 +15,16 @@
 .fleet-container {
     display: grid;
    grid-template-columns: repeat(3,1fr);
-   padding: 0 16rem;
+   padding: 0 4rem;
 }
 
 .fleet-info  {
     text-align: center;
+    padding: 1rem;
 }
 
-.trailer-photo {
-    border-radius: 10px;
+img {
+    border-radius: 15px;
 }
+
+

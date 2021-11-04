@@ -11,12 +11,17 @@ function ContactForm() {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Get Quote</label>
+        <label htmlFor="email">Request Quote</label>
         <br/>
         <input id="name" type="name" name="name" placeholder="Full Name"/>
         <input id="email" type="email" name="email" placeholder="Email"/>
         <br/>
+        <label> Pick Up Date </label>
+        <br/>
         <input id="pickupdate" type="date" name="pickup" />
+        <br/>
+        <label> Return Date </label>
+        <br/>
         <input id="dropdate" type="date" name="dropdate" />
         <br/>
         <label for="shasta">Shasta 310k</label>
@@ -28,11 +33,13 @@ function ContactForm() {
 
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <br/>
+        <label> Send A Message </label>
+        <br/>
         <textarea id="message" name="message" />
         {state.succeeded ? (
-          <button type="submit"> Sent !</button>
+          <button className="formButton" type="submit"> Sent !</button>
         ) : (
-          <button type="submit" disabled={state.submitting}>
+          <button className="formButton" type="submit" disabled={state.submitting}>
             Submit
           </button>
         )}
