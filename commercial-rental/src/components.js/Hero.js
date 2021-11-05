@@ -15,7 +15,7 @@ export default function Hero() {
                 Serving Central Florida with premium vacation rentals.
                 </p>
                 <div className="trailer-container">
-                    <img className="temp-trailer" src= {img}/>
+                    <img className="temp-trailer" src= {img} alt=""/>
                 </div>
             </div>
         </hero>

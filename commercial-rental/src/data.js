@@ -4,18 +4,21 @@ export const equipment = [
     make: "Shasta",
     model: "310k",
     Sleeps: "4",
+    description: "If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable ,outside speakers and plenty of storage among other features to make your stay more pleasant. Fully stocked unit new memory foam mattress outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed.Led lights outside under Awning. Three smart Flat screens tvs. Pets are welcome there is a Fee",
   },
   {
     year: "2016",
     make: "Jayco",
     model: "Jayflight 26BH",
     Sleeps: "8",
+    description: "If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant. Fully stocked unit new memory foam mattress outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed.Led lights outside under Awning. Two smaller Flat screens tvs. Pets are welcome there is a Fee.",
   },
   {
     year: "2016",
     make: "Coachmen",
     model: "Pursuit 33BH Class-A RV",
     Sleeps: "6",
+    description: "If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant. Fully stocked unit new memory foam mattress . Has one queen bed two twin bunks and couch that coverts to another full bed and an over the cab full bed as well you can sleep 9 comfortably .Led lights outside under Awning. Two Flat screens tvs and outdoor tv and both bunk beds have tv/dvd players great for the kids or adults.. Pets are welcome there is a per pet fee.",
   },
 ];
 

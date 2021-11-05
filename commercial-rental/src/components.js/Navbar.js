@@ -11,6 +11,7 @@ export default function Navbar() {
               <li>About</li>
               <li>Our Fleet</li>
               <li>Book Now</li>
+              <li>Reviews</li>
             </ul>
           </nav>
         </div>
