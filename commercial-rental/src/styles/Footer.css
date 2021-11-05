@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+}
+
+.footerIcon {
+  text-align: center; 
+}
+
+.footerIcon :first-child {
+    margin-right: .5rem;
+}
+
+.fbIcon .phoneIcon{
+    display: inline;
+}
+
+.phoneIcon {
+    margin-left: 10px;
+}
+
+.copyright {
+    color: white;
+}

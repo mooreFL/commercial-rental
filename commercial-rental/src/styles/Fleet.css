@@ -13,7 +13,7 @@
 }
 
 .fleet-container {
-    display: grid;
+   display: grid;
    grid-template-columns: repeat(3,1fr);
    padding: 0 4rem;
 }
