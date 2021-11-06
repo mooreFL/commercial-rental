@@ -34,7 +34,7 @@ export default function Fleet() {
           <p className="trailer-info">Shasta</p>
           <p className="trailer-info">310k</p>
           <p className="trailer-info">Sleeps 7-9</p>
-          <p className="trailer-info">If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable ,outside speakers and plenty of storage among other features to make your stay more pleasant. Fully stocked unit new memory foam mattress outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed.Led lights outside under Awning. Three smart Flat screens tvs. Pets are welcome there is a Fee</p>
+          <p className="trailer-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, sequi hic architecto delectus earum mollitia ducimus corrupti dignissimos sed. Quisquam, blanditiis molestias? Perspiciatis modi saepe, quas quidem at impedit repudiandae?</p>
           <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true}>
             <div>
               <img src={shastaext} alt="trailer1" />
@@ -64,7 +64,7 @@ export default function Fleet() {
           <p className="trailer-info">Jayco</p>
           <p className="trailer-info">Jayflight 26BH</p>
           <p className="trailer-info">Sleeps 6-7</p>
-          <p className="trailer-info">If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant. Fully stocked unit new memory foam mattress outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed.Led lights outside under Awning. Two smaller Flat screens tvs. Pets are welcome there is a Fee.</p>
+          <p className="trailer-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laborum? Corrupti quia quibusdam pariatur ipsam optio non quod vel veritatis sit dignissimos quas, aliquid repellat delectus impedit similique, laudantium cupiditate.</p>
           <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true}>
             <div>
               <img src={jaycoext} alt="trailer8" />
@@ -89,9 +89,9 @@ export default function Fleet() {
         <div className="fleet-info">
           <p className="trailer-info">2016</p>
           <p className="trailer-info">Coachmen</p>
-          <p className="trailer-info">Pursuit 33BH Class-A RV</p>
+          <p className="trailer-info">Pursuit 33BH RV</p>
           <p className="trailer-info">Sleeps 8-9</p>.
-          <p className="trailer-info">If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant. Fully stocked unit new memory foam mattress . Has one queen bed two twin bunks and couch that coverts to another full bed and an over the cab full bed as well you can sleep 9 comfortably .Led lights outside under Awning. Two Flat screens tvs and outdoor tv and both bunk beds have tv/dvd players great for the kids or adults.. Pets are welcome there is a per pet fee.</p>
+          <p className="trailer-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laborum? Corrupti quia quibusdam pariatur ipsam optio non quod vel veritatis sit dignissimos quas, aliquid repellat delectus impedit similique, laudantium cupiditate.</p>
           <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true}>
             <div>
               <img src={coachmenext} alt="trailer14" />
