@@ -4,31 +4,40 @@
     --gray:  #36454f;
 }
 
+.container{
+    position: relative;
+    content: '';
+    background-image: url("../images/beach.jpg"); 
+    background-size: cover;
+    object-fit: cover 100%;
+}
+
 .hero-header {
-    width: 100%;
     font-size: 2.5rem;
     color: white;
-    margin: 5rem 0rem 0rem 8rem; 
+    margin-top: 0rem;
+    margin-left: 8rem;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    overflow: hidden;
 }
 
 .hero-p {
     margin: 0rem 0rem 0rem 8rem; 
-    background-color: #000000;
     align-items: center;
     justify-content: center;
+    font-size: 1.5rem;
+
 }
 
 .trailer-container {
     display: flex;
     justify-content: flex-end;
-    background-color: #000000;
 }
 
 .temp-trailer {
     height: 25rem;
-    margin: -8rem 25rem 0rem 0rem;
+    margin: -4rem 25rem 0rem 0rem;
     border-radius: 10px;
 }
+

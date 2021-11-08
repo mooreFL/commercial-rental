@@ -14,6 +14,13 @@ export const equipment = [
     description: "If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant. Fully stocked unit new memory foam mattress outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed.Led lights outside under Awning. Two smaller Flat screens tvs. Pets are welcome there is a Fee.",
   },
   {
+    year: "2021",
+    make: "Jayco",
+    model: "Jay Flight SLX 174BH",
+    Sleeps: "6",
+    description: "If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant. Fully stocked unit its brand new outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed. Led lights outside under Awning. Pets are welcome there is a Fee.",
+  },
+  {
     year: "2016",
     make: "Coachmen",
     model: "Pursuit 33BH Class-A RV",

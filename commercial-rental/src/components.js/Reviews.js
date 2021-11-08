@@ -3,8 +3,6 @@ import "../styles/Reviews.css"
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import { BsChatSquareQuote } from "react-icons/bs";
-
 export default function Reviews() {
   return (
     <Carousel
@@ -16,9 +14,8 @@ export default function Reviews() {
       interval={10000}
     >
       <div>
-        <BsChatSquareQuote color="white" size="32px" className="quoteIcon" />
         <div className="myCarousel">
-          <h3>Catherine</h3>
+          <h3 className="review-name">Catherine</h3>
           <p>
             "We were very happy with our RV rental experience. The RV was very
             clean and comfortable and well maintained. David was thoughtful and
@@ -29,9 +26,8 @@ export default function Reviews() {
       </div>
 
       <div>
-        <BsChatSquareQuote color="white" size="32px" className="quoteIcon" />
         <div className="myCarousel">
-          <h3>Lauren</h3>
+          <h3 className="review-name">Lauren</h3>
           <p>
             "David was awesome from start to finish, guiding us through our
             first hitching/unhitching and towing experience and the RV itself
@@ -43,9 +39,8 @@ export default function Reviews() {
       </div>
 
       <div>
-      <BsChatSquareQuote color="white" size="32px" className="quoteIcon"/>
         <div className="myCarousel">
-          <h3>Diego</h3>
+          <h3 className="review-name">Diego</h3>
           <p>
           "Excellent host! really amazing experience. I will rent again for sure."
           </p>

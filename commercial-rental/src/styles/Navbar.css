@@ -5,15 +5,14 @@
 }
 
 .nav {
-    margin-top: 0; 
+    width: 100%;
+    top: 0; 
     position: sticky;
-	top: 0;
+    z-index: 100;
 }
 
-nav {
+.nav-contents {
     background-color: var(--gray);
-    padding: 1rem;
-    height: 4.25rem; 
     border-bottom:  solid 1px gray;
 }
 
@@ -22,20 +21,50 @@ nav {
 }
 
 .nav ul {
-    margin-top: -2rem;
-    margin-left: 4rem;
+    margin-top: 0rem;
+    margin-left: 5.5rem;
     display: flex;
 }
 
+
+
 .nav li {
-    font-size: 1.5rem;
-    margin: 3.3rem .5rem 0rem 2rem;
+    font-size: 1.75rem;
     color: white;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2.2rem;
     justify-content: space-between;
 }
 
 .title {
     font-family: 'Ultra', serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-right: 11rem;
     color: var(--orange);
 }
+
+.phonenum {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+
+.phoneNav {
+    color: white;
+}
+
+li:hover {
+    background-color: var(--orange);
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+/* .phoneNav:hover {
+    color: var(--orange);
+} */
