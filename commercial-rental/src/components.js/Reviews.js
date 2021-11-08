@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Reviews() {
   return (
+  <section id="reviews">
     <Carousel
       showArrows={false}
       infiniteLoop={true}
@@ -47,5 +48,6 @@ export default function Reviews() {
         </div>
       </div>
     </Carousel>
+  </section>
   );
 }

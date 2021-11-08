@@ -26,6 +26,7 @@ import coachmentlayout from "../images/coachmenlayout.jpg";
 
 export default function Fleet() {
   return (
+  <section id="fleet">
     <div className="fleet">
       <p className="fleet-p">Our Fleet</p>
       <div className="fleet-container">
@@ -112,5 +113,6 @@ export default function Fleet() {
         </div>
       </div>
     </div>
+  </section>
   );
 }

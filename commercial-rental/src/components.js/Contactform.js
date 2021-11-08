@@ -9,6 +9,7 @@ function ContactForm() {
   //     return <button>Send Another Message</button>;
   // }
   return (
+  <section id="contact">
     <div className="form-container">
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">Request Quote</label>
@@ -45,6 +46,7 @@ function ContactForm() {
         )}
       </form>
     </div>
+  </section>
   );
 }
 function App() {
