@@ -7,7 +7,7 @@ import Reviews from "./components.js/Reviews"
 import Footer from "./components.js/Footer"
 import './App.css';
 
-export default function App() {
+function App() {
   return (
    <main>
    <Navbar />
@@ -19,3 +19,5 @@ export default function App() {
    </main>
   );
 }
+
+export default App;

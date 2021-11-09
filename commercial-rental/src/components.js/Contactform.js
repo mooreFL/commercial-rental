@@ -25,11 +25,11 @@ function ContactForm() {
         <br/>
         <input id="dropdate" type="date" name="dropdate" />
         <br/>
-        <label for="shasta">Shasta 310k</label>
+        <label htmlFor="shasta">Shasta 310k</label>
         <input id="trailercheckbox1" type="checkbox" name="Shasta310k" />
-        <label for="Jayco26BH">Jayflight 26BH</label>
+        <label htmlFor="Jayco26BH">Jayflight 26BH</label>
         <input id="trailercheckbox1" type="checkbox" name="Jayflight26BH" />
-        <label for="Coachmen33BH">Coachmen 33BH</label>
+        <label htmlFor="Coachmen33BH">Coachmen 33BH</label>
         <input id="trailercheckbox1" type="checkbox" name="Pursuit33BH" />
 
         <ValidationError prefix="Email" field="email" errors={state.errors} />
