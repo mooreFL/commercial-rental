@@ -10,7 +10,7 @@ import shastaint3 from "../images/shastaint3.jpeg";
 import shastaint4 from "../images/shastaint4.jpeg";
 import shastaint5 from "../images/shastaint5.jpeg";
 import shastalayout from "../images/shastalayout.jpg";
-//jayco
+//2016jayco
 import jaycoext from "../images/jaycoext.jpeg";
 import jaycoint1 from "../images/jaycoint1.jpeg";
 import jaycoint2 from "../images/jaycoint2.jpeg";
@@ -84,6 +84,30 @@ export default function Fleet() {
             </div>
             <div>
               <img src={jaycolayout} alt="trailer13" />
+            </div>
+          </Carousel>
+        </div>
+        <div className="fleet-info">
+          <p className="trailer-info">2021</p>
+          <p className="trailer-info">Jayco</p>
+          <p className="trailer-info">Jayflight 26BH</p>
+          <p className="trailer-info">Sleeps 8</p>.
+          <p className="trailer-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laborum? Corrupti quia quibusdam pariatur ipsam optio non quod vel veritatis sit dignissimos quas, aliquid repellat delectus impedit similique, laudantium cupiditate.</p>
+          <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true}>
+            <div>
+              <img src={coachmenext} alt="trailer14" />
+            </div>
+            <div>
+              <img src={coachmenint1} alt="trailer15" />
+            </div>
+            <div>
+              <img src={coachmenint2} alt="trailer16" />
+            </div>
+            <div>
+              <img src={coachmenint3} alt="trailer17" />
+            </div>
+            <div>
+              <img src={coachmentlayout} alt="trailer18" />
             </div>
           </Carousel>
         </div>
