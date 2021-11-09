@@ -28,7 +28,7 @@
 
 
 
-.nav li {
+.nav-links {
     font-size: 1.75rem;
     color: white;
     margin-right: 2rem;
@@ -57,7 +57,7 @@
     color: white;
 }
 
-li:hover {
+.nav-links:hover {
     background-color: var(--orange);
     padding: 5px;
     border-radius: 10px;

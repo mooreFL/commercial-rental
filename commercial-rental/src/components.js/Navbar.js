@@ -9,13 +9,13 @@ export default function Navbar() {
         <div className="nav-contents">
           <ul>
             <p className="title">Sun Flo Rentalz</p>
-            <a href="#about"><li>About</li></a>
-            <a href="#fleet"><li>Our Fleet</li></a>
-            <a href="#contact"><li>Get Quote</li></a>
-            <a href="#reviews"><li>Reviews</li></a>
-            <li>COVID-19</li>
+            <a href="#about"><li className="nav-links">About</li></a>
+            <a href="#fleet"><li className="nav-links">Our Fleet</li></a>
+            <a href="#contact"><li className="nav-links">Get Quote</li></a>
+            <a href="#reviews"><li className="nav-links">Reviews</li></a>
+            <li className="nav-links">COVID-19</li>
             <a href="tel:+13525849950">
-            <li className="phonenum">
+            <li className="phonenum nav-links">
             <FaPhoneSquareAlt size="22px" className="phoneNav"/>
             (352) 584-9950
             </li>
