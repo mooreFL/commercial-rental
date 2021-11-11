@@ -1,5 +1,4 @@
 import React from "react";
-import { Router, Route, Switch, Routes } from "react-router";
 import Navbar from "../components.js/Navbar";
 import Hero from "../components.js/Hero";
 import Fleet from "../components.js/Fleet";
