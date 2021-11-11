@@ -16,7 +16,7 @@
 .fleet-container {
    display: grid;
    grid-template-columns: repeat(2,2fr);
-   padding: 0 6rem;
+   padding: 0 0rem;
 }
 
 .fleet-info  {

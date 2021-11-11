@@ -1,31 +1,32 @@
 import React from "react";
-import Navbar from "./components.js/Navbar";
-import Hero from "./components.js/Hero";
-import Fleet from "./components.js/Fleet"
-import ContactForm from "./components.js/Contactform"
-import Reviews from "./components.js/Reviews"
-import Footer from "./components.js/Footer"
-import './App.css';
-import StripeContainer from "./components.js/StripeContainer";
-import { useState } from "react";
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import Home from "./pages/Home";
+import "./App.css";
+import Paymenttest from "./components.js/Paymenttest";
 
 function App() {
-  const [showItem, setShowItem] = useState(false)
-    return (
-   <main>
-   <Navbar />
-   <Hero />
-   <Fleet />
-    <h1>Pay RV Deposit</h1>
-    { showItem ? <StripeContainer/> : <React.Fragment> <h3>$1500.00</h3><button className="stripe-button" onClick={() => setShowItem(true)}>Pay RV Deposit</button> </React.Fragment> }
-    <h1>Pay Trailer Deposit</h1>
-    { showItem ? <StripeContainer/> : <React.Fragment> <h3>$500.00</h3><button className="stripe-button" onClick={() => setShowItem(true)}>Pay RV Deposit</button> </React.Fragment> }
-   <ContactForm />
-   <Reviews />
-   <Footer />
-   </main>
+  return (
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/payment" element={<Paymenttest />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
+/* <Route exact path="/">
+        <Navbar />
+        <Hero />
+        <Fleet />
+        <Stripepay />
+        <ContactForm />
+        <Reviews />
+        <Footer />
+    </Route> */
