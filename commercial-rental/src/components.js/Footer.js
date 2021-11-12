@@ -6,7 +6,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer-section">
       <div className="footerIcon">
         <a href="https://www.facebook.com/sunflorentalz/" target="_blank" rel="noopener noreferrer">
         <FaFacebookSquare color="white" size="40px" className="fbIcon"/>

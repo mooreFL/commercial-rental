@@ -5,7 +5,8 @@ import Fleet from "../components.js/Fleet";
 import ContactForm from "../components.js/Contactform";
 import Reviews from "../components.js/Reviews";
 import Footer from "../components.js/Footer";
-import Stripepay from "../components.js/Stripepay";
+
+{/*import Stripepay from "../components.js/Stripepay";*/}
 
 const Home = () => {
   return (
@@ -13,7 +14,6 @@ const Home = () => {
     <Navbar />
     <Hero />
     <Fleet />
-    <Stripepay />
     <ContactForm />
     <Reviews />
     <Footer />
