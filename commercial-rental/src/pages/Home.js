@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components.js/Navbar";
+import Covid from "../components.js/Covid"
 import Hero from "../components.js/Hero";
 import Fleet from "../components.js/Fleet";
 import ContactForm from "../components.js/Contactform";
@@ -12,6 +13,7 @@ const Home = () => {
   return (
     <div>
     <Navbar />
+    <Covid />
     <Hero />
     <Fleet />
     <ContactForm />

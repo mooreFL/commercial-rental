@@ -26,7 +26,7 @@ import coachmentlayout from "../images/coachmenlayout.jpg";
 
 export default function Fleet() {
   return (
-  <section id="fleet">
+  <section className="fleet">
     <div className="fleet">
       <p className="fleet-p">Our Fleet</p>
       <div className="fleet-container">
@@ -36,7 +36,7 @@ export default function Fleet() {
           <p className="trailer-info">310k</p>
           <p className="trailer-info">Sleeps 7-9</p>
           <p className="trailer-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, sequi hic architecto delectus earum mollitia ducimus corrupti dignissimos sed. Quisquam, blanditiis molestias? Perspiciatis modi saepe, quas quidem at impedit repudiandae?</p>
-          <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true}>
+          <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
             <div>
               <img src={shastaext} alt="trailer1" />
             </div>
@@ -66,7 +66,7 @@ export default function Fleet() {
           <p className="trailer-info">Jayflight 26BH</p>
           <p className="trailer-info">Sleeps 6-7</p>
           <p className="trailer-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laborum? Corrupti quia quibusdam pariatur ipsam optio non quod vel veritatis sit dignissimos quas, aliquid repellat delectus impedit similique, laudantium cupiditate.</p>
-          <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true}>
+          <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
             <div>
               <img src={jaycoext} alt="trailer8" />
             </div>
@@ -93,7 +93,7 @@ export default function Fleet() {
           <p className="trailer-info">Jayflight 26BH</p>
           <p className="trailer-info">Sleeps 8</p>.
           <p className="trailer-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laborum? Corrupti quia quibusdam pariatur ipsam optio non quod vel veritatis sit dignissimos quas, aliquid repellat delectus impedit similique, laudantium cupiditate.</p>
-          <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true}>
+          <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
             <div>
               <img src={coachmenext} alt="trailer14" />
             </div>
@@ -117,7 +117,7 @@ export default function Fleet() {
           <p className="trailer-info">Pursuit 33BH RV</p>
           <p className="trailer-info">Sleeps 8-9</p>.
           <p className="trailer-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laborum? Corrupti quia quibusdam pariatur ipsam optio non quod vel veritatis sit dignissimos quas, aliquid repellat delectus impedit similique, laudantium cupiditate.</p>
-          <Carousel showThumbs={false} infiniteLoop={true} emulateTouch={true}>
+          <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
             <div>
               <img src={coachmenext} alt="trailer14" />
             </div>

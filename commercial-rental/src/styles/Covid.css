@@ -1,0 +1,21 @@
+:root {
+    --blue: #63AAAB;
+    --orange: #FFA500;
+    --gray:  #36454f;
+}
+
+.covid-container {
+    background-color: black;
+    height: 100%;
+}
+
+.covid-header {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.covid-paragraph {
+    font-size: 2rem;
+    text-align: center;
+}
