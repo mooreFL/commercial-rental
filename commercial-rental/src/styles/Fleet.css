@@ -28,8 +28,13 @@ img {
     border-radius: 15px;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
     .fleet-container {
-        grid-template-columns: repeat(1,3fr);
+        display: grid;
+        grid-template-columns: repeat(1,100%);
     }
+}
+
+@media screen and (max-width: 768px) {
+    
 }
