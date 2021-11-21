@@ -1,31 +1,91 @@
 :root {
-    --blue: #63AAAB;
-    --orange: #FFA500;
-    --gray:  #36454f;
+  --blue: #63aaab;
+  --orange: #ffa500;
+  --gray: #36454f;
+}
+
+#contact {
+  border-right: gray solid 3px;
 }
 
 .form-container {
-    height: 20rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    background-color: var(--gray);
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: var(--gray);
+  padding: 8rem;
 }
 
 textarea {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: 1px solid var(--gray);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+form > input {
+    margin: 5px;
     border-radius: 5px;
-    font-size: 16px;
-    padding: 10px 15px;
-    width: 100%;
+    padding: 5px;
+}
+
+.deposit-container {
+  margin-left: 10rem;
+  padding: 10px;
+  border-radius: 10px;
+
 }
 
 .formButton {
-    border-radius: 5px;
-    color: white;
-    background-color: var(--orange);
+  border-radius: 5px;
+  color: white;
+  background-color: var(--orange);
+}
+
+.deposit-button {
+  border-radius: 10px;
+  background-color: var(--orange);
+}
+
+.deposit-button:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: green;
+}
+
+.outer-contact-container {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title-container {
+    position: absolute;
+    justify-content: center;
+    margin-top: -10rem;
+}
+
+.contact-title {
+    font-size: 3rem;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  textarea {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .form-container {
+      top: -500px;
+      flex-direction: column;
+      height: 100vh;
+  }
 }

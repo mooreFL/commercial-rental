@@ -1,24 +1,25 @@
 .footer-section {
-    width: 100%;
-    background-color: black;
+  width: auto;
+  height: 8rem;
+  background-color: black;
 }
 
 .footerIcon {
-  text-align: center; 
+  text-align: center;
 }
 
 .footerIcon :first-child {
-    margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
-.fbIcon .phoneIcon{
-    display: inline;
+.fbIcon .phoneIcon {
+  display: inline;
 }
 
 .phoneIcon {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .copyright {
-    color: white;
+  color: white;
 }

@@ -6,13 +6,14 @@ import Fleet from "../components.js/Fleet";
 import ContactForm from "../components.js/Contactform";
 import Reviews from "../components.js/Reviews";
 import Footer from "../components.js/Footer";
+import Navigation from "../components.js/Navigation/Navigation";
 
-{/*import Stripepay from "../components.js/Stripepay";*/}
 
-const Home = () => {
+const Home = () => { 
   return (
     <div>
-    <Navbar />
+    {/*<Navbar />*/}
+    <Navigation />
     <Covid />
     <Hero />
     <Fleet />

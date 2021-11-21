@@ -1,0 +1,142 @@
+#navigation {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    align-items: center;
+    height: 150px;
+    background-color: #36454f;
+}
+
+#logo {
+    width: 450px;
+    height: auto;
+}
+
+.title {
+    font-family: 'Ultra', serif;
+    font-size: 2rem;
+    margin-right: 11rem;
+    color: var(--orange);
+}
+
+
+.navbar {
+    position: absolute;
+    right: 15px;
+    float: right;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin: auto 20px;
+}
+
+.navlinks:hover {
+    color: rgb(174, 174, 174);
+    text-decoration: underline;
+}
+
+#burger {
+    display: none;
+    cursor: pointer;
+}
+
+#burger div {
+    width: 40px;
+    height: 4px;
+    margin: 8px;
+    transition: all 0.3s ease;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Line click animation for burger */
+.line1click {
+    transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.line2click {
+    opacity: 0;
+}
+
+.line3click {
+    transform: rotate(45deg) translate(-8px, -7px);
+}
+
+@media screen and (max-width: 1200px) {
+    #navigation {
+        margin-left: 0px;
+        height: 100px;
+        align-items: unset;
+    }
+    
+    #burger {
+        display: block;
+    }
+
+    #mobilenavigation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #logo {
+       width: 300px;
+    }
+
+    #burger {
+        position: absolute;
+        right: 30px;
+    }
+
+    /* #mobileNavActive {
+        background-color: rgb(238, 238, 238);
+    } */
+
+    .navbar {
+        width: 100%;
+        height: calc(100vh - 100px);
+        top: 160px;
+        left: -100%;
+        opacity: 0;
+        position: absolute;
+        transition: all 0.5s ease;
+        margin-top: 0;
+        margin-bottom: 10px;
+        background-color: rgb(28, 28, 28);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar.active {
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        
+    }
+
+    .navlinks {
+        font-size: 40px;
+        margin: 40px auto;
+    }
+
+    #phoneNum {
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+    #navigation {
+        padding-top: 10px;
+    }
+    #logo {
+        width: 200px;
+    }
+}

@@ -15,7 +15,7 @@ export default function Footer() {
         <FaPhoneSquareAlt color="white" size="40px" className="phoneIcon"/>
         </a>
         <br/>
-        <small className="copyright">&copy; Copyright 2021, Sun Flo Rentalz</small>
+        <small className="copyright">&copy; Copyright 2021, Sun Flo Rentalz All Rights Reserved</small>
       </div>
 
     </footer>

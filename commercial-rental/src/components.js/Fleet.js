@@ -46,14 +46,16 @@ import coachmentlayout from "../images/coachmenlayout.jpg";
 
 export default function Fleet() {
   return (
-    <section className="fleet">
+    <section className="fleet" id="fleet">
       <div className="fleet">
-        <p className="fleet-p">Our Fleet</p>
+        <p className="fleet-p">Our <span className="title-splash">Fleet</span></p>
         <div className="fleet-container">
           <div className="fleet-info">
-            <p className="trailer-info">2021</p>
-            <p className="trailer-info">Shasta Oasis 310k</p>
-            <p className="trailer-info">Sleeps 7-9</p>
+          <div className="card-stat-container">
+            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2021</p>
+            <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Shasta Oasis 310k</p>
+            <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 7-9</p>
+            </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
               accommodations of being at home...This is the right rental for you
@@ -89,9 +91,11 @@ export default function Fleet() {
             </Carousel>
           </div>
           <div className="fleet-info">
-            <p className="trailer-info">2016</p>
-            <p className="trailer-info">Jayco Jayflight 26BH</p>
-            <p className="trailer-info">Sleeps 6-7</p>
+          <div className="card-stat-container">
+            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2016</p>
+            <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Jayco Jayflight 26BH</p>
+            <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 6-7</p>
+            </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
               accommodations of being at home...This is the right rental for you
@@ -124,9 +128,11 @@ export default function Fleet() {
             </Carousel>
           </div>
           <div className="fleet-info">
-            <p className="trailer-info">2021</p>
-            <p className="trailer-info">Jayco Jayflight 26BH</p>
-            <p className="trailer-info">Sleeps 8</p>.
+          <div className="card-stat-container">
+            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2021</p>
+            <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Jayco Jayflight 174BH</p>
+            <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 8</p>
+            </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
               accommodations of being at home...This is the right rental for you
@@ -162,9 +168,11 @@ export default function Fleet() {
             </Carousel>
           </div>
           <div className="fleet-info">
-            <p className="trailer-info">2021</p>
-            <p className="trailer-info">Forest River Salem FSX 207BH</p>
-            <p className="trailer-info">Sleeps 5</p>.
+          <div className="card-stat-container">
+            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2021</p>
+            <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Forest River Salem FSX 207BH</p>
+            <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 5</p>
+            </div>
             <p className="trailer-info">
             If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant.
             Fully stocked unit new memory foam mattress outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed.Led lights outside under Awning. Flat screens tvs with built in DVD . Pets are welcome there is a Fee.
@@ -196,11 +204,12 @@ export default function Fleet() {
               </div>
             </Carousel>
           </div>
-
-          <div className="fleet-info">
-            <p className="trailer-info">2016</p>
-            <p className="trailer-info">Coachmen Pursuit 33BH RV</p>
-            <p className="trailer-info">Sleeps 8-9</p>.
+          <div className="fleet-info" id="fifth-trailer">
+            <div className="card-stat-container"> 
+            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2016</p>
+            <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Coachmen Pursuit 33BH RV</p>
+            <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 8 - 9</p>
+            </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
               accommodations of being at home...This is the right rental for you

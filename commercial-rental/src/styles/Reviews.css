@@ -1,7 +1,17 @@
 .reviews-section {
     background-color: black;
+    height: 150px;
+}
+
+.review-container {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 485px;
 }
 
 .review-name {
     color: white;
 }
+

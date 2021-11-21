@@ -5,7 +5,7 @@ import "../styles/Hero.css";
 export default function Hero() {
     return (
         <section id="about">
-        <hero className="hero">
+        <div className="hero">
         <div className="container">
         <div className="hero-header">
         Find your RV rental
@@ -19,7 +19,7 @@ export default function Hero() {
                     <img className="temp-trailer" src= {img} alt=""/>
                 </div>
             </div>
-        </hero>
+        </div>
         </section>
     );
 }

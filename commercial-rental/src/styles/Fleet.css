@@ -7,8 +7,10 @@
 .fleet {
     background-color:var(--gray);
 }
+
 .fleet-p {
-    font-size: 2.5rem;
+    font-size: 4rem;
+    font-weight: bolder;
     text-align: center;
     margin-top: 0px;
 }
@@ -19,19 +21,43 @@
    padding: 0 0rem;
 }
 
+#fifth-trailer {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 60vw;
+    left: 480px;
+}
+
 .fleet-info  {
     text-align: center;
     padding: 1rem;
+}
+
+.card-stat-container {
+    border: gray solid 1px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.title-splash {
+    color: var(--blue)
 }
 
 img {
     border-radius: 15px;
 }
 
-@media only screen and (max-width: 640px) {
+.orange-splash {
+    color: var(--blue);
+}
+
+@media only screen and (max-width: 480px) {
     .fleet-container {
         display: grid;
         grid-template-columns: repeat(1,100%);
+        margin-bottom: -1000px;
     }
 }
 
