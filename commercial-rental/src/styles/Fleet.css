@@ -13,6 +13,8 @@
     font-weight: bolder;
     text-align: center;
     margin-top: 0px;
+    text-shadow: 1px 1px black;
+
 }
 
 .fleet-container {
@@ -21,7 +23,10 @@
    padding: 0 0rem;
 }
 
+.trailer-info-header {
+    text-shadow: 1px 1px black;
 
+}
 
 .fleet-info  {
     text-align: center;
@@ -68,7 +73,6 @@ img {
     .fleet-container {
         display: grid;
         grid-template-columns: repeat(1, 100%);
-        margin-bottom: -1000px;
     }
 }
 

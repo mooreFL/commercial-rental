@@ -1,0 +1,87 @@
+:root {
+  --blue: #63aaab;
+  --orange: #ffa500;
+  --gray: #36454f;
+}
+
+body {
+  background-color: var(--gray);
+}
+
+.checkout-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    color: white;
+}
+
+.description > h3 {
+  font-size: 3rem;
+}
+
+.description > h5 {
+  font-size: 2rem;
+}
+
+.payDepButtonContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.payDepButton {
+  border-radius: 10px;
+  background-color: var(--orange);
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  width: auto;
+}
+
+.payDepButton:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: green;
+}
+
+.productContainer {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.product {
+  display: inline-block;
+  justify-content: center;
+}
+
+.quantInfo {
+  color: white;
+}
+
+.buttonContainerh5 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .product {
+    padding: 10rem 10rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .product {
+    margin-top: -5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+ .product {
+   margin-top: 1rem;
+ }
+}

@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="hero">
         <div className="container">
         <div className="hero-header">
-        Find your RV rental
+        <h1>Find Your Rental</h1>
         </div>
         <p className="hero-p">
         Experience the outdoors with Sun Flo Rentalz.

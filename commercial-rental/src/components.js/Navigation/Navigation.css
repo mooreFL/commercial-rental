@@ -19,6 +19,8 @@
     margin-left: 8rem;
     margin-top: -1rem;
     color: var(--orange);
+    text-shadow: 1px 1px black;
+
 }
 
 .navbar {
@@ -35,6 +37,7 @@
     margin-top: 3rem; 
     padding: 5px;
     border-radius: 10px;
+    text-shadow: 1px 1px black;
 }
 
 .phonenum {
@@ -43,6 +46,8 @@
     text-decoration: none;
     padding: 5px;
     border-radius: 30px;
+    text-shadow: 1px 1px black;
+
 }
 
 .navlinks:hover {
@@ -155,8 +160,8 @@
     .title {
         font-family: 'Ultra', serif;
         margin-left: 0rem;
-        margin-top: 3rem;
-        font-size: 2rem;
+        margin-top: 2rem;
+        font-size: 1.75rem;
         color: var(--orange);
         padding-left: 1rem;
     }

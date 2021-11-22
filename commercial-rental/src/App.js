@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import "./App.css";
-import Paymenttest from "./components.js/Paymenttest";
+import Paymenttest from "./components.js/Payment";
 
 function App() {
   

@@ -1,6 +1,5 @@
 .reviews-section {
     background-color: black;
-    height: 150px;
 }
 
 .review-container {
@@ -8,10 +7,33 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 485px;
 }
 
 .review-name {
     color: white;
 }
 
+@media screen and (min-width: 1201px) {
+    .review-container {
+        right: 485px;
+    }
+
+    .reviews-section {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .review-container {
+        width: 100%;
+        align-items: center;
+        position: relative;
+        left:initial;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .review-container {
+        height: auto;
+    }
+}

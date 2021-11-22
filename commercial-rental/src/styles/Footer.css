@@ -2,6 +2,7 @@
   width: auto;
   height: 8rem;
   background-color: black;
+  padding-top: 5rem;
 }
 
 .footerIcon {
@@ -22,4 +23,11 @@
 
 .copyright {
   color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
+@media only screen and (max-width: 500px) {
+
 }

@@ -18,11 +18,21 @@ app.post('/create-checkout-session', async (req, res) => {
             {
               // Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
               price: 'price_1JuSYQFAXQF3PAb4E0psleUY',
+              adjustable_quantity: {
+                enabled: true,
+                minimum: 0,
+                maximum: 2,
+              },
               quantity: 1,
             },
             {
                 // Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
                 price: 'price_1JuSXsFAXQF3PAb4NnmBcttt',
+                adjustable_quantity: {
+                  enabled: true,
+                  minimum: 0,
+                  maximum: 2,
+                },
                 quantity: 1,
               },
           ],

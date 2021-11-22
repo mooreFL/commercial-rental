@@ -1,34 +1,37 @@
-
 import React, { useState, useEffect } from "react";
 import traveltrailericon from "../images/icons8-trailer-48.png";
 import campericon from "../images/icons8-camper-50.png";
+import "../styles/Payment.css";
 
 const ProductDisplay = () => (
   <section>
-    <div className="product">
-    <img 
-    src={traveltrailericon}
-    alt="travel trailer icon"
-    />
-      <div className="description">
-      <h3>Trailer Rental Deposit</h3>
-      <h5>$500.00</h5>
+    <div className="productContainer">
+      <div className="product">
+        <img src={traveltrailericon} alt="travel trailer icon" />
+        <div className="description">
+          <h3>Trailer Rental Deposit</h3>
+          <h5>$500.00</h5>
+        </div>
       </div>
-    </div>
-    <div className="product">
-    <img 
-    src={campericon}
-    alt="motorhome icon"
-    />
-      <div className="description">
-      <h3>RV Rental Deposit</h3>
-      <h5>$1500.00</h5>
+      <div className="product">
+        <img src={campericon} alt="motorhome icon" />
+        <div className="description">
+          <h3>RV Rental Deposit</h3>
+          <h5>$1500.00</h5>
+        </div>
       </div>
     </div>
     <form action="/create-checkout-session" method="POST">
-      <button type="submit">
-        Pay Deposit
-      </button>
+    <div className="buttonContainerh5">
+      <h5 className="quantInfo">
+        Quantities are adjustable on the next page.
+      </h5>
+    </div>
+      <div className="payDepButtonContainer">
+        <button type="submit" className="payDepButton">
+          Pay Deposit
+        </button>
+      </div>
     </form>
   </section>
 );
@@ -57,9 +60,5 @@ export default function App() {
     }
   }, []);
 
-  return message ? (
-    <Message message={message} />
-  ) : (
-    <ProductDisplay />
-  );
+  return message ? <Message message={message} /> : <ProductDisplay />;
 }

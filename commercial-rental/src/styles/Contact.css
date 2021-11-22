@@ -4,18 +4,15 @@
   --gray: #36454f;
 }
 
-#contact {
-  border-right: gray solid 3px;
-}
-
 .form-container {
-  height: 20rem;
+  height: 22rem;
   display: flex;
   justify-content: center;
   text-align: center;
   color: white;
   background-color: var(--gray);
   padding: 8rem;
+  text-shadow: 1px 1px black;
 }
 
 textarea {
@@ -29,16 +26,16 @@ textarea {
 }
 
 form > input {
-    margin: 5px;
-    border-radius: 5px;
-    padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  align-items: center;
 }
 
 .deposit-container {
-  margin-left: 10rem;
-  padding: 10px;
-  border-radius: 10px;
-
+  background-color: var(--gray);
+  color: white;
+  width: 100vh;
 }
 
 .formButton {
@@ -50,28 +47,45 @@ form > input {
 .deposit-button {
   border-radius: 10px;
   background-color: var(--orange);
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
 }
 
-.deposit-button:hover {
-    transition: all 0.3s ease-in-out;
-    background-color: green;
+.deposit-button:hover, .formButton:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: green;
 }
 
 .outer-contact-container {
-    background-color: var(--gray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-title-container {
-    position: absolute;
-    justify-content: center;
-    margin-top: -10rem;
+  position: absolute;
+  justify-content: center;
+  margin-top: -10rem;
 }
 
 .contact-title {
-    font-size: 3rem;
+  font-size: 3rem;
+}
+
+@media only screen and (min-width: 1201px) {
+  .deposit-container {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4rem;
+    margin-top: -4rem;
+  }
+
+  .deposit-button {
+    width: 40%;
+    margin-left: 35.5rem;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -82,9 +96,18 @@ form > input {
     font-size: 16px;
     width: 100%;
   }
+
+  .deposit-container {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  
+  .deposit-text {
+  margin-top: -5rem;
+  }
+  
 }
-
-
 
 @media only screen and (max-width: 500px) {
   textarea {
@@ -93,8 +116,41 @@ form > input {
     padding: 0;
     width: 100%;
   }
-
+  
   .form-container {
-      flex-direction: column;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: var(--gray);
+    padding: 0rem;
+    text-shadow: 1px 1px black;
+    margin-bottom: -6rem;
+    padding-top: 5rem;
   }
+  
+  .contact-title-container {
+    position: absolute;
+    justify-content: center;
+    margin-top: -5rem;
+  }
+  
+  .deposit-container {
+    margin-left: 0rem;
+  }
+
+  .deposit-text {
+  position: absolute;
+  justify-content: center;
+  margin-top: -10rem;
+  }
+
+  .contact-title {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+
+ 
+  
 }
