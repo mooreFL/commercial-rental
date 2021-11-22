@@ -58,7 +58,7 @@ export default function Fleet() {
             </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
-              accommodations of being at home...This is the right rental for you
+              accommodations of being at home. This is the right rental for you
               and your family, spacious and comfortable ,outside speakers and
               plenty of storage among other features to make your stay more
               pleasant. Fully stocked unit new memory foam mattress outdoor
@@ -98,7 +98,7 @@ export default function Fleet() {
             </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
-              accommodations of being at home...This is the right rental for you
+              accommodations of being at home. This is the right rental for you
               and your family, spacious and comfortable,outside speakers and
               plenty of storage among other features to make your stay more
               pleasant. Fully stocked unit new memory foam mattress outdoor
@@ -135,7 +135,7 @@ export default function Fleet() {
             </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
-              accommodations of being at home...This is the right rental for you
+              accommodations of being at home. This is the right rental for you
               and your family, spacious and comfortable,outside speakers and
               plenty of storage among other features to make your stay more
               pleasant. Fully stocked unit its brand new outdoor stereo and
@@ -174,7 +174,7 @@ export default function Fleet() {
             <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 5</p>
             </div>
             <p className="trailer-info">
-            If you are looking for the perfect RV experience with all the accommodations of being at home...This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant.
+            If you are looking for the perfect RV experience with all the accommodations of being at home. This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant.
             Fully stocked unit new memory foam mattress outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed.Led lights outside under Awning. Flat screens tvs with built in DVD . Pets are welcome there is a Fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
@@ -212,7 +212,7 @@ export default function Fleet() {
             </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
-              accommodations of being at home...This is the right rental for you
+              accommodations of being at home. This is the right rental for you
               and your family, outside speakers and plenty of storage among
               other features to make your stay more pleasant. Fully stocked unit
               new memory foam mattress. Has one queen bed two twin bunks and

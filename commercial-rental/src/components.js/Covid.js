@@ -6,7 +6,7 @@ export default function Covid() {
     <section className="covid-section">
       <div className="covid-container">
         <h1 className="covid-header title-splash">COVID-19 policy:</h1>
-        <p className="covid-paragraph">This is the covid test</p>
+        <p className="covid-paragraph">We're taking every precaution in the fight against COVID-19, each rental is fully sanitized before every use. </p>
       </div>
     </section>
   );
