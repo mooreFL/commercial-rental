@@ -21,13 +21,7 @@
    padding: 0 0rem;
 }
 
-#fifth-trailer {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    max-width: 60vw;
-    left: 480px;
-}
+
 
 .fleet-info  {
     text-align: center;
@@ -53,14 +47,28 @@ img {
     color: var(--blue);
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 1201px) {
+    #fifth-trailer {
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        max-width: 60vw;
+        left: 480px;
+    } 
+}
+
+@media screen and (max-width: 1200px) {
     .fleet-container {
         display: grid;
         grid-template-columns: repeat(1,100%);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .fleet-container {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
         margin-bottom: -1000px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    
-}

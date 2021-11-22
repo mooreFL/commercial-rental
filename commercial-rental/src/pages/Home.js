@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components.js/Navbar";
 import Covid from "../components.js/Covid"
 import Hero from "../components.js/Hero";
 import Fleet from "../components.js/Fleet";
@@ -12,7 +11,6 @@ import Navigation from "../components.js/Navigation/Navigation";
 const Home = () => { 
   return (
     <div>
-    {/*<Navbar />*/}
     <Navigation />
     <Covid />
     <Hero />

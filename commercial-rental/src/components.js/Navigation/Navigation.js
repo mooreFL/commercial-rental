@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 
 
@@ -16,7 +15,6 @@ class Navbar extends Component {
     return (
       <div id="navigation">
         <div id="mobilenavigation">
-          {/*<img id="logo" src={Logo} alt="Armada Virtual Choirs logo"></img>*/}
           <p className="title">Sun Flo Rentalz</p>
           <div id="burger" onClick={this.handleClick}>
             <div
@@ -46,11 +44,9 @@ class Navbar extends Component {
           <a href="#reviews" className="navlinks" onClick={this.handleClick}>
             Reviews
           </a>
-          <a href="tel:+13525849950">
-            <p className="phonenum nav-links-number" id="phoneNum">
+          <a  className="phonenum nav-links-number" href="tel:+13525849950">
               <FaPhoneSquareAlt size="22px" className="phoneNav" />
               (352) 584-9950
-            </p>
           </a>
         </div>
       </div>

@@ -4,13 +4,6 @@
     --gray:  #36454f;
 }
 
-.container{
-    position: relative;
-    content: '';
-    background-image: url("../images/rvsunset.jpg"); 
-    background-size: 100% 100%;
-    object-fit: cover 100%;
-}
 
 .hero-header {
     font-size: 2.5rem;
@@ -27,7 +20,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-
+    
 }
 
 .trailer-container {
@@ -35,9 +28,27 @@
     justify-content: flex-end;
 }
 
-.temp-trailer {
+.stacked-logo {
     height: 25rem;
     margin: -4rem 25rem 0rem 0rem;
     border-radius: 10px;
 }
 
+.container{
+    position: relative;
+    content: '';
+    background-image: url("../images/rvsunset.jpg"); 
+    background-size: 100% 100%;
+    object-fit: cover 100%;
+}
+
+@media screen and (min-width: 1201px) {
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 500px) {
+
+}

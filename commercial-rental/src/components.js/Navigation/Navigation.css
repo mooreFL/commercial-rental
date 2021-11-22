@@ -1,43 +1,56 @@
-#navigation {
-    display: flex;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    align-items: center;
-    height: 150px;
-    background-color: #36454f;
+:root {
+    --blue: #63AAAB;
+    --orange: #FFA500;
+    --gray:  #36454f;
 }
 
-#logo {
-    width: 450px;
-    height: auto;
+#navigation {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    height: 70px;
+    background-color: #36454f; 
+    z-index: 100;
 }
 
 .title {
     font-family: 'Ultra', serif;
-    font-size: 2rem;
-    margin-right: 11rem;
+    font-size: 3rem;
+    margin-left: 8rem;
+    margin-top: -1rem;
     color: var(--orange);
 }
 
-
 .navbar {
     position: absolute;
-    right: 15px;
+    right: 3rem;
     float: right;
 }
 
 .navlinks {
-    text-decoration: none;
+    font-size: 1.75rem;
     color: white;
-    font-weight: 400;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 50px;
-    margin: auto 20px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 3rem; 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.phonenum {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 30px;
 }
 
 .navlinks:hover {
-    color: rgb(174, 174, 174);
-    text-decoration: underline;
+    background-color: var(--orange);
+    padding: 5px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
 }
 
 #burger {
@@ -93,13 +106,9 @@
         right: 30px;
     }
 
-    /* #mobileNavActive {
-        background-color: rgb(238, 238, 238);
-    } */
-
     .navbar {
         width: 100%;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 150);
         top: 160px;
         left: -100%;
         opacity: 0;
@@ -107,7 +116,7 @@
         transition: all 0.5s ease;
         margin-top: 0;
         margin-bottom: 10px;
-        background-color: rgb(28, 28, 28);
+        background-color: black;
         display: flex;
         flex-direction: column;
     }
@@ -117,26 +126,44 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
-        
     }
 
     .navlinks {
         font-size: 40px;
         margin: 40px auto;
     }
-
-    #phoneNum {
-        text-align: center;
+    
+    .phonenum {
+        font-size: 20px;
+        margin: 40px auto;
     }
 
-    
+    .title {
+        font-family: 'Ultra', serif;
+        margin-left: 0rem;
+        margin-top: 3rem;
+        color: var(--orange);
+        padding-left: 1rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
     #navigation {
         padding-top: 10px;
     }
-    #logo {
-        width: 200px;
+    
+    .title {
+        font-family: 'Ultra', serif;
+        margin-left: 0rem;
+        margin-top: 3rem;
+        font-size: 2rem;
+        color: var(--orange);
+        padding-left: 1rem;
     }
+    
+    .phonenum {
+        font-size: 20px;
+        margin: 40px auto;
+    }
+
 }

@@ -74,18 +74,27 @@ form > input {
     font-size: 3rem;
 }
 
+@media only screen and (max-width: 1200px) {
+  textarea {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+}
 
 
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 500px) {
   textarea {
     justify-content: center;
     align-items: center;
     padding: 0;
+    width: 100%;
   }
 
   .form-container {
-      top: -500px;
       flex-direction: column;
-      height: 100vh;
   }
 }
