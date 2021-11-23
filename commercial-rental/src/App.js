@@ -17,6 +17,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/checkout" element={<Paymenttest />} />
+        <Route exact path="/success" element={<Home />} />
+        <Route exact path="/cancel" element={<Home />} />
       </Routes>
     </Router>
   );
@@ -24,12 +26,3 @@ function App() {
 
 export default App;
 
-/* <Route exact path="/">
-        <Navbar />
-        <Hero />
-        <Fleet />
-        <Stripepay />
-        <ContactForm />
-        <Reviews />
-        <Footer />
-    </Route> */

@@ -8,7 +8,7 @@ const express = require('express');
 const app = express();
 app.use(express.static('public'));
 
-const YOUR_DOMAIN = 'http://localhost:3000';
+const YOUR_DOMAIN = 'https://sunflorentalz.com';
 
 app.post('/create-checkout-session', async (req, res) => {
     console.log(process.env.STRIPE_SECRET_TEST);
@@ -17,7 +17,7 @@ app.post('/create-checkout-session', async (req, res) => {
           line_items: [
             {
               // Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
-              price: 'price_1JuSYQFAXQF3PAb4E0psleUY',
+              price: 'price_1Jyo8oL4StCBnw3uP3F53cAO',
               adjustable_quantity: {
                 enabled: true,
                 minimum: 0,
@@ -27,7 +27,7 @@ app.post('/create-checkout-session', async (req, res) => {
             },
             {
                 // Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
-                price: 'price_1JuSXsFAXQF3PAb4NnmBcttt',
+                price: 'price_1Jyo9KL4StCBnw3uc1mSO4ad',
                 adjustable_quantity: {
                   enabled: true,
                   minimum: 0,
@@ -40,8 +40,8 @@ app.post('/create-checkout-session', async (req, res) => {
             'card',
           ],
           mode: 'payment',
-          success_url: `${YOUR_DOMAIN}/client/index.html`,
-          cancel_url: `${YOUR_DOMAIN}/client/index.html`,
+          success_url: `${YOUR_DOMAIN}/success`,
+          cancel_url: `${YOUR_DOMAIN}/cancel`,
         });
         console.log(session.url)
         res.redirect(303, session.url);
@@ -51,4 +51,6 @@ app.post('/create-checkout-session', async (req, res) => {
    }
 });
 
+
 app.listen(3001, () => console.log('Running on port 3001'));
+
