@@ -8,7 +8,7 @@ const express = require('express');
 const app = express();
 app.use(express.static('public'));
 
-const YOUR_DOMAIN = 'https://sunflorentalz.com';
+const YOUR_DOMAIN = 'https://sunflo-44ef1.web.app';
 
 app.post('/create-checkout-session', async (req, res) => {
     console.log(process.env.STRIPE_SECRET_TEST);
