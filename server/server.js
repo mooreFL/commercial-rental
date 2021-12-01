@@ -8,16 +8,16 @@ const express = require('express');
 const app = express();
 app.use(express.static('public'));
 
-const YOUR_DOMAIN = 'https://sunflo-44ef1.web.app';
+const YOUR_DOMAIN = 'http://localhost:3001/';
 
 app.post('/create-checkout-session', async (req, res) => {
-    console.log(process.env.STRIPE_SECRET_TEST);
+    console.log("firing");
     try {
         const session = await stripe.checkout.sessions.create({
           line_items: [
             {
               // Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
-              price: 'price_1Jyo8oL4StCBnw3uP3F53cAO',
+              price: 'price_1JuSYQFAXQF3PAb4E0psleUY',
               adjustable_quantity: {
                 enabled: true,
                 minimum: 0,
@@ -27,7 +27,7 @@ app.post('/create-checkout-session', async (req, res) => {
             },
             {
                 // Provide the exact Price ID (e.g. pr_1234) of the product you want to sell
-                price: 'price_1Jyo9KL4StCBnw3uc1mSO4ad',
+                price: 'price_1JuSXsFAXQF3PAb4NnmBcttt',
                 adjustable_quantity: {
                   enabled: true,
                   minimum: 0,

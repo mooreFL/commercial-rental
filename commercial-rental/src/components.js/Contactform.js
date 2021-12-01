@@ -27,24 +27,30 @@ function ContactForm() {
           <label> Return:</label>
           <input placeholder="Return Date" id="dropdate" type="date" name="dropdate" />
           <br />
-          <label htmlFor="shasta">'21 Shasta 310k</label>
-          <input id="trailercheckbox1" type="checkbox" name="21Shasta310k" />
-          <label htmlFor="Jayco26BH">'16 Jayflight 26BH</label>
-          <input id="trailercheckbox1" type="checkbox" name="16Jayflight26BH" />
+          <label htmlFor="shasta">'21 Shasta 310k
+          <input id="21shastaoasischeckbox" type="checkbox" name="21Shasta310k" />
+          </label>
+          <label htmlFor="Jayco26BH">'16 Jayflight 26BH
+          <input id="16jayflight26bhcheckbox" type="checkbox" name="16Jayflight26BH" />
+          </label>
           <br />
-          <label htmlFor="Jayco174BH">'21 Jayflight 174BH</label>
-          <input id="trailercheckbox1" type="checkbox" name="21Jayflight174BH" />
-          <label htmlFor="ForestRiver207BH">'21 Forest River 207BH</label>
-          <input id="trailercheckbox1" type="checkbox" name="21ForestRiver" />
+          <label htmlFor="Jayco174BH">'21 Jayflight 174BH
+          <input id="21jayflight174bhcheckbox" type="checkbox" name="21Jayflight174BH" />
+          </label>
+          <label htmlFor="ForestRiver207BH">'21 Forest River 207BH
+          <input id="21forestriver207bhcheckbox" type="checkbox" name="21ForestRiver" />
+          </label>
           <br />
-          <label htmlFor="Coachmen33BH">'16 Coachmen 33BH</label>
-          <input id="trailercheckbox1" type="checkbox" name="16Pursuit33BH" />
+          <label htmlFor="Coachmen33BH">'16 Coachmen 33BH
+          <input id="16coachmenrvcheckbox" type="checkbox" name="16Pursuit33BH" />
+          </label>
           <br />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <br />
-          <label> Send Message </label>
+          <label> Send Message 
           <br />
           <textarea id="message" name="message" />
+          </label>
           {state.succeeded ? (
             <button className="formButton" type="submit">
               {" "}
@@ -63,10 +69,11 @@ function ContactForm() {
         </div>
         <div className="deposit-container">
           <div className="deposit-text">
-            <h1>Ready to pay your deposit? Click the button below.</h1>
-            <a href="/checkout">
-              <li className="nav-links deposit-button">Pay Deposit</li>
-            </a>
+            <h1>Deposit feature currently under construction</h1>
+            {/* <a href="/checkout >*/}
+            <ul>
+              <li className="nav-links deposit-button">Coming Soon!</li>
+            </ul>
           </div>
         </div>
     </section>

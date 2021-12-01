@@ -9,10 +9,10 @@ export default function Footer() {
     <footer className="footer-section">
       <div className="footerIcon">
         <a href="https://www.facebook.com/sunflorentalz/" target="_blank" rel="noopener noreferrer">
-        <FaFacebookSquare color="white" size="40px" className="fbIcon"/>
+        <FaFacebookSquare color="white" size="40px" className="fbIcon" aria-label="facebooklink"/>
         </a>
         <a href="tel:+13525849950">
-        <FaPhoneSquareAlt color="white" size="40px" className="phoneIcon"/>
+        <FaPhoneSquareAlt color="white" size="40px" className="phoneIcon" aria-label="phonenumberlink"/>
         </a>
         <br/>
         <small className="copyright">&copy; Copyright 2021, Sun Flo Rentalz All Rights Reserved</small>

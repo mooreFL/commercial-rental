@@ -19,7 +19,7 @@ export default function Reviews() {
 
       <div>
         <div className="myCarousel">
-          <h3 className="review-name">Catherine</h3>
+          <h1 className="review-name">Catherine</h1>
           <p className="review-p">
             "We were very happy with our RV rental experience. The RV was very
             clean and comfortable and well maintained. David was thoughtful and
@@ -31,7 +31,7 @@ export default function Reviews() {
 
       <div>
         <div className="myCarousel">
-          <h3 className="review-name">Lauren</h3>
+          <h1 className="review-name">Lauren</h1>
           <p className="review-p">
             "David was awesome from start to finish, guiding us through our
             first hitching/unhitching and towing experience and the RV itself
@@ -44,7 +44,7 @@ export default function Reviews() {
 
       <div>
         <div className="myCarousel">
-          <h3 className="review-name">Diego</h3>
+          <h1 className="review-name">Diego</h1>
           <p className="review-p">
           "Excellent host! really amazing experience. I will rent again for sure."
           </p>
