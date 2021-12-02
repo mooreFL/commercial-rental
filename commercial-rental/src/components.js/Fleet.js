@@ -131,7 +131,7 @@ export default function Fleet() {
           <div className="card-stat-container">
             <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2021</p>
             <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Jayco Jayflight 174BH</p>
-            <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 8</p>
+            <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 5</p>
             </div>
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
