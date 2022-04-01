@@ -14,13 +14,9 @@
 }
 
 .title {
-    font-family: 'Ultra', serif;
-    font-size: 3rem;
-    margin-left: 8rem;
-    margin-top: -1rem;
-    color: var(--orange);
-    text-shadow: 1px 1px black;
-
+    height: 5rem;
+    width: 20rem;
+    margin-left: 5rem;
 }
 
 .navbar {
@@ -144,10 +140,8 @@
     }
 
     .title {
-        font-family: 'Ultra', serif;
         margin-left: 0rem;
         margin-top: 3rem;
-        color: var(--orange);
         padding-left: 1rem;
     }
 }
@@ -158,11 +152,8 @@
     }
     
     .title {
-        font-family: 'Ultra', serif;
-        margin-left: 0rem;
-        margin-top: 2rem;
-        font-size: 1.75rem;
-        color: var(--orange);
+        margin-left: -.5rem;
+        margin-top: 1.25rem;
         padding-left: 1rem;
     }
     

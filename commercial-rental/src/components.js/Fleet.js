@@ -27,7 +27,7 @@ import jayco174int3 from "../images/jayco174int3.jpg";
 import jayco174int4 from "../images/jayco174int4.jpg";
 import jayco174int5 from "../images/jayco174int5.jpg";
 
-//2017forestriver
+//2018forestriver
 import forestext1 from "../images/forestext1.jpg";
 import forestint1 from "../images/forestint1.jpeg";
 import forestint2 from "../images/forestint2.jpeg";
@@ -59,12 +59,12 @@ export default function Fleet() {
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
               accommodations of being at home. This is the right rental for you
-              and your family, spacious and comfortable ,outside speakers and
+              and your family, spacious and comfortable, outside speakers and
               plenty of storage among other features to make your stay more
-              pleasant. Fully stocked unit new memory foam mattress outdoor
-              stereo and fridge. Has one queen bed two twin bunks and couch that
-              coverts to another full bed.Led lights outside under Awning. Three
-              smart Flat screens tvs. Pets are welcome there is a Fee.
+              pleasant. Fully stocked unit new memory foam mattress, outdoor
+              stereo and fridge. Has one queen bed and two twin bunks. Couch that
+              coverts to another full bed. Led lights outside under Awning. Three
+              smart Flat screen tvs. Pets are welcome with an additional fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
               <div>
@@ -99,12 +99,12 @@ export default function Fleet() {
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
               accommodations of being at home. This is the right rental for you
-              and your family, spacious and comfortable,outside speakers and
+              and your family, spacious and comfortable, outside speakers and
               plenty of storage among other features to make your stay more
-              pleasant. Fully stocked unit new memory foam mattress outdoor
-              stereo and fridge. Has one queen bed two twin bunks and couch that
-              coverts to another full bed.Led lights outside under Awning. Two
-              smaller Flat screens tvs. Pets are welcome there is a Fee.
+              pleasant. Fully stocked unit new memory foam mattress, outdoor
+              stereo and fridge. Has one queen bed and two twin bunks. Couch that
+              coverts to another full bed. Led lights outside under Awning. Two
+              smaller Flat screens tvs. Pets are welcome with an additional fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
               <div>
@@ -136,12 +136,12 @@ export default function Fleet() {
             <p className="trailer-info">
               If you are looking for the perfect RV experience with all the
               accommodations of being at home. This is the right rental for you
-              and your family, spacious and comfortable,outside speakers and
+              and your family, spacious and comfortable, outside speakers and
               plenty of storage among other features to make your stay more
-              pleasant. Fully stocked unit its brand new outdoor stereo and
-              fridge. Has one queen bed two twin bunks and couch that coverts to
+              pleasant. Fully stocked unit with brand new outdoor stereo and
+              fridge. Has one queen bed, two twin bunks and couch that coverts to
               another full bed. Led lights outside under Awning. Pets are
-              welcome there is a Fee.
+              welcome with an additional fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
               <div>
@@ -169,13 +169,13 @@ export default function Fleet() {
           </div>
           <div className="fleet-info">
           <div className="card-stat-container">
-            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2021</p>
+            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2018</p>
             <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Forest River Salem FSX 207BH</p>
             <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 5</p>
             </div>
             <p className="trailer-info">
             If you are looking for the perfect RV experience with all the accommodations of being at home. This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant.
-            Fully stocked unit new memory foam mattress outdoor stereo and fridge. Has one queen bed two twin bunks and couch that coverts to another full bed.Led lights outside under Awning. Flat screens tvs with built in DVD . Pets are welcome there is a Fee.
+            Fully stocked unit new memory foam mattress, outdoor stereo and fridge. Has one queen bed two twin bunks. Couch that coverts to another full bed. Led lights outside under Awning. Flat screens tvs with built in DVD player. Pets are welcome with an additional Fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
               <div>
@@ -215,12 +215,11 @@ export default function Fleet() {
               accommodations of being at home. This is the right rental for you
               and your family, outside speakers and plenty of storage among
               other features to make your stay more pleasant. Fully stocked unit
-              new memory foam mattress. Has one queen bed two twin bunks and
-              couch that coverts to another full bed and an over the cab full
-              bed as well you can sleep 9 comfortably. Led lights outside under
-              Awning. Two Flat screens tvs and outdoor tv and both bunk beds
+              new memory foam mattress. Has one queen bed two twin bunks. Couch that coverts to another full bed and an over the cab full
+              bed; you can sleep 9 comfortably. Led lights outside under
+              Awning. Two Flat screens tvs and outdoor tv. Both bunk beds
               have tv/dvd players great for the kids or adults. Pets are welcome
-              with a per pet fee.
+              with an additional pet fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
               <div>

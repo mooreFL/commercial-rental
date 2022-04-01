@@ -50,6 +50,8 @@ form > input {
   color: white;
   font-size: 20px;
   text-shadow: 1px 1px black;
+  margin: 0 auto;
+  display: block;
 }
 
 .deposit-button:hover, .formButton:hover {
@@ -77,14 +79,15 @@ form > input {
 @media only screen and (min-width: 1201px) {
   .deposit-container {
     text-align: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     padding-bottom: 4rem;
-    margin-top: -4rem;
+    margin-top: 3rem;
   }
 
   .deposit-button {
-    width: 40%;
-    margin-left: 35.5rem;
+    width: 50%;
   }
 }
 
@@ -105,6 +108,10 @@ form > input {
   
   .deposit-text {
   margin-top: -5rem;
+  }
+
+  .deposit-button {
+    width: 50%;
   }
   
 }
@@ -138,6 +145,7 @@ form > input {
   
   .deposit-container {
     margin-left: 0rem;
+    margin-top: 6rem;
   }
 
   .deposit-text {
@@ -151,6 +159,9 @@ form > input {
     font-size: 2rem;
   }
 
- 
-  
+  .deposit-button {
+
+  }
+
+
 }

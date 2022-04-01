@@ -32,7 +32,7 @@
 .stacked-logo {
     height: 25rem;
     margin: -10rem 25rem 0rem 0rem;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .container{
@@ -43,21 +43,23 @@
     object-fit: center 100%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .hero-header {
         font-size: 2rem;
-        margin: 0rem 0rem 0rem 0rem;
-        text-align: center;
+        margin: 0rem 0rem -2rem 5rem;
     }
 
     .hero-p {
-        margin: 0rem 0rem 0rem 0rem;
-        text-align: center;
+        margin: 0rem 0rem 0rem 5rem;
     }
 
     .stacked-logo {
-        height: 20rem;
-        margin: 0rem 18.5rem 0rem 0rem;
+        height: 17rem;
+        margin: -11rem 18.5rem 0rem 0rem;
+    }
+
+    .container {
+        height: 435px;
     }
 }
 
@@ -80,7 +82,7 @@
     }
 
     .container {
-        background-size: 150% 150%;
-        object-fit: fill;
+        background-size: 100% 100%;
+        background-image: none;
     }
 }

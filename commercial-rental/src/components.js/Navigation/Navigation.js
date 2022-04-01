@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { FaPhoneSquareAlt } from "react-icons/fa";
+import navbarlogo from "../../images/navbarlogo.png";
 
 
 import "./Navigation.css";
@@ -15,7 +16,8 @@ class Navbar extends Component {
     return (
       <div id="navigation">
         <div id="mobilenavigation">
-          <p className="title">Sun Flo Rentalz</p>
+          <img className="title" src={navbarlogo} alt="sunflo rentalz logo"/>
+          {/*<p className="title">Sun Flo Rentalz</p>*/}
           <div id="burger" onClick={this.handleClick}>
             <div
               id="line1"

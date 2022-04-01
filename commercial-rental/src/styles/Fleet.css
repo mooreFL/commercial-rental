@@ -19,8 +19,7 @@
 
 .fleet-container {
    display: grid;
-   grid-template-columns: repeat(2,2fr);
-   padding: 0 0rem;
+   /* grid-template-columns: repeat(2,2fr); */
 }
 
 .trailer-info-header {
@@ -60,9 +59,14 @@ img {
         max-width: 60vw;
         left: 480px;
     } 
+
+    .fleet-container {
+        grid-template-columns: repeat(2,2fr);
+    }
+   
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 961px) {
     .fleet-container {
         display: grid;
         grid-template-columns: repeat(1,100%);
