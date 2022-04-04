@@ -28,21 +28,24 @@ import jayco174int4 from "../images/jayco174int4.jpg";
 import jayco174int5 from "../images/jayco174int5.jpg";
 
 //2018forestriver
-import forestext1 from "../images/forestext1.jpg";
-import forestint1 from "../images/forestint1.jpeg";
-import forestint2 from "../images/forestint2.jpeg";
-import forestint3 from "../images/forestint3.jpeg";
-import forestint4 from "../images/forestint4.jpeg";
-import forestint5 from "../images/forestint4.jpeg";
-import forestint6 from "../images/forestint6.jpeg";
-import forestlayout from "../images/forestlayout.jpg";
+// import forestext1 from "../images/forestext1.jpg";
+// import forestint1 from "../images/forestint1.jpeg";
+// import forestint2 from "../images/forestint2.jpeg";
+// import forestint3 from "../images/forestint3.jpeg";
+// import forestint4 from "../images/forestint4.jpeg";
+// import forestint5 from "../images/forestint4.jpeg";
+// import forestint6 from "../images/forestint6.jpeg";
+// import forestlayout from "../images/forestlayout.jpg";
+import newforestext1 from "../images/newforestext1.jpeg";
+import newforestext2 from "../images/newforestext2.jpeg";
+import newforestint1 from "../images/newforestint1.jpeg";
+import newforestint2 from "../images/newforestint2.jpeg";
+import newforestint3 from "../images/newforestint3.jpeg";
 
-//coachmen
-import coachmenext from "../images/coachmenext.png";
-import coachmenint1 from "../images/coachmenint1.jpeg";
-import coachmenint2 from "../images/coachmenint2.jpeg";
-import coachmenint3 from "../images/coachmenint3.jpeg";
-import coachmentlayout from "../images/coachmenlayout.jpg";
+
+//2020forestrivergreywolf
+import imageplaceholder from "../images/imageplaceholder.png";
+
 
 export default function Fleet() {
   return (
@@ -67,25 +70,25 @@ export default function Fleet() {
               smart Flat screen tvs. Pets are welcome with an additional fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
-              <div>
+              <div className="trailerImages">
                 <img src={shastaext} alt="trailer1" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={shastaint1} alt="trailer2" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={shastaint2} alt="trailer3" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={shastaint3} alt="trailer4" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={shastaint4} alt="trailer5" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={shastaint5} alt="trailer6" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={shastalayout} alt="trailer7" />
               </div>
             </Carousel>
@@ -107,22 +110,22 @@ export default function Fleet() {
               smaller Flat screens tvs. Pets are welcome with an additional fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
-              <div>
+              <div className="trailerImages">
                 <img src={jaycoext} alt="trailer8" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jaycoint1} alt="trailer9" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jaycoint2} alt="trailer10" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jaycoint3} alt="trailer11" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jaycoint4} alt="trailer12" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jaycolayout} alt="trailer13" />
               </div>
             </Carousel>
@@ -144,25 +147,25 @@ export default function Fleet() {
               welcome with an additional fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
-              <div>
+              <div className="trailerImages">
                 <img src={jayco174ext} alt="trailer14" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jayco174ext2} alt="trailer15" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jayco174int1} alt="trailer16" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jayco174int2} alt="trailer17" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jayco174int3} alt="trailer18" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jayco174int4} alt="trailer18" />
               </div>
-              <div>
+              <div className="trailerImages">
                 <img src={jayco174int5} alt="trailer18" />
               </div>
             </Carousel>
@@ -175,43 +178,34 @@ export default function Fleet() {
             </div>
             <p className="trailer-info">
             If you are looking for the perfect RV experience with all the accommodations of being at home. This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant.
-            Fully stocked unit new memory foam mattress, outdoor stereo and fridge. Has one queen bed two twin bunks. Couch that coverts to another full bed. Led lights outside under Awning. Flat screens tvs with built in DVD player. Pets are welcome with an additional Fee.
+            Fully stocked unit new memory foam mattress, outdoor stereo and fridge. Has one queen bed two twin bunks. Couch that coverts to another full bed. Led lights outside under Awning. Flat screens tvs with built in DVD player. Pets are welcome with +additional Fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
-              <div>
-                <img src={forestext1} alt="trailer14" />
+              <div className="trailerImages">
+                <img src={newforestext1} alt="trailer14" />
               </div>
-              <div>
-                <img src={forestint1} alt="trailer15" />
+              <div className="trailerImages">
+                <img src={newforestext2} alt="trailer15" />
               </div>
-              <div>
-                <img src={forestint2} alt="trailer16" />
+              <div className="trailerImages">
+                <img src={newforestint1} alt="trailer16" />
               </div>
-              <div>
-                <img src={forestint3} alt="trailer17" />
+              <div className="trailerImages">
+                <img src={newforestint2} alt="trailer17" />
               </div>
-              <div>
-                <img src={forestint4} alt="trailer18" />
-              </div>
-              <div>
-                <img src={forestint5} alt="trailer18" />
-              </div>
-              <div>
-                <img src={forestint6} alt="trailer18" />
-              </div>
-              <div>
-                <img src={forestlayout} alt="trailer18" />
+              <div className="trailerImages">
+                <img src={newforestint3} alt="trailer18" />
               </div>
             </Carousel>
           </div>
           <div className="fleet-info" id="fifth-trailer">
             <div className="card-stat-container"> 
-            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2016</p>
-            <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Coachmen Pursuit 33BH RV</p>
+            <p className="trailer-info-header year"><span className="orange-splash">Year:</span> 2020</p>
+            <p className="trailer-info-header make"><span className="orange-splash">Make:</span> Forest River Grey Wolf 26DBH</p>
             <p className="trailer-info-header capacity"><span className="orange-splash">Capacity:</span> Sleeps 8 - 9</p>
             </div>
             <p className="trailer-info">
-              If you are looking for the perfect RV experience with all the
+              If you are looking for the perfect experience with all the
               accommodations of being at home. This is the right rental for you
               and your family, outside speakers and plenty of storage among
               other features to make your stay more pleasant. Fully stocked unit
@@ -223,19 +217,7 @@ export default function Fleet() {
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
               <div>
-                <img src={coachmenext} alt="trailer14" />
-              </div>
-              <div>
-                <img src={coachmenint1} alt="trailer15" />
-              </div>
-              <div>
-                <img src={coachmenint2} alt="trailer16" />
-              </div>
-              <div>
-                <img src={coachmenint3} alt="trailer17" />
-              </div>
-              <div>
-                <img src={coachmentlayout} alt="trailer18" />
+                <img src={imageplaceholder} alt="trailer14" />
               </div>
             </Carousel>
           </div>
