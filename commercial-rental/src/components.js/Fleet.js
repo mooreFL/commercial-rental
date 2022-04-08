@@ -38,13 +38,25 @@ import jayco174int5 from "../images/jayco174int5.jpg";
 // import forestlayout from "../images/forestlayout.jpg";
 import newforestext1 from "../images/newforestext1.jpeg";
 import newforestext2 from "../images/newforestext2.jpeg";
+import newforestext3 from "../images/newforestext3.JPG";
 import newforestint1 from "../images/newforestint1.jpeg";
 import newforestint2 from "../images/newforestint2.jpeg";
 import newforestint3 from "../images/newforestint3.jpeg";
 
 
 //2020forestrivergreywolf
-import imageplaceholder from "../images/imageplaceholder.png";
+import greywolfext1 from "../images/greywolfext1.jpg";
+import greywolfext2 from "../images/greywolfext2.jpg";
+import greywolfext3 from "../images/greywolfext3.jpg";
+import greywolfext4 from "../images/greywolfext4.jpg";
+import greywolfext5 from "../images/greywolfext5.JPG";
+import greywolfint1 from "../images/greywolfint1.jpg";
+import greywolfint2 from "../images/greywolfint2.jpg";
+import greywolfint3 from "../images/greywolfint3.jpg";
+import greywolfint4 from "../images/greywolfint4.jpg";
+import greywolfint5 from "../images/greywolfint5.jpg";
+
+
 
 
 export default function Fleet() {
@@ -178,7 +190,7 @@ export default function Fleet() {
             </div>
             <p className="trailer-info">
             If you are looking for the perfect RV experience with all the accommodations of being at home. This is the right rental for you and your family, spacious and comfortable,outside speakers and plenty of storage among other features to make your stay more pleasant.
-            Fully stocked unit new memory foam mattress, outdoor stereo and fridge. Has one queen bed two twin bunks. Couch that coverts to another full bed. Led lights outside under Awning. Flat screens tvs with built in DVD player. Pets are welcome with +additional Fee.
+            Fully stocked unit new memory foam mattress, outdoor stereo and fridge. Has one queen bed two twin bunks. Couch that coverts to another full bed. Led lights outside under Awning. Flat screens tvs with built in DVD player. Pets are welcome with fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
               <div className="trailerImages">
@@ -186,6 +198,9 @@ export default function Fleet() {
               </div>
               <div className="trailerImages">
                 <img src={newforestext2} alt="trailer15" />
+              </div>
+              <div className="trailerImages">
+                <img src={newforestext3} alt="trailer15" />
               </div>
               <div className="trailerImages">
                 <img src={newforestint1} alt="trailer16" />
@@ -209,15 +224,39 @@ export default function Fleet() {
               accommodations of being at home. This is the right rental for you
               and your family, outside speakers and plenty of storage among
               other features to make your stay more pleasant. Fully stocked unit
-              new memory foam mattress. Has one queen bed two twin bunks. Couch that coverts to another full bed and an over the cab full
-              bed; you can sleep 9 comfortably. Led lights outside under
-              Awning. Two Flat screens tvs and outdoor tv. Both bunk beds
-              have tv/dvd players great for the kids or adults. Pets are welcome
+              new memory foam mattress. Has one queen bed. Pets are welcome
               with an additional pet fee.
             </p>
             <Carousel showThumbs={true} infiniteLoop={true} emulateTouch={true}>
               <div>
-                <img src={imageplaceholder} alt="trailer14" />
+                <img src={greywolfext1} alt="trailer14" />
+              </div>
+              <div>
+                <img src={greywolfext2} alt="trailer15" />
+              </div>
+              <div>
+                <img src={greywolfext3} alt="trailer15" />
+              </div>
+              <div>
+                <img src={greywolfext4} alt="trailer15" />
+              </div>
+              <div>
+                <img src={greywolfext5} alt="trailer15" />
+              </div>
+              <div>
+                <img src={greywolfint1} alt="trailer15" />
+              </div>
+              <div>
+                <img src={greywolfint2} alt="trailer15" />
+              </div>
+              <div>
+                <img src={greywolfint3} alt="trailer15" />
+              </div>
+              <div>
+                <img src={greywolfint4} alt="trailer15" />
+              </div>
+              <div>
+                <img src={greywolfint5} alt="trailer15" />
               </div>
             </Carousel>
           </div>
